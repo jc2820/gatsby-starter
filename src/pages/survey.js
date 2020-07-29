@@ -23,22 +23,22 @@ const IndexPage = props => {
 }
 export default IndexPage
 
-export const query = graphql`
-  query {
-    allFile(
-      filter: { sourceInstanceName: { eq: "content" }, name: { eq: "survey" } }
-    ) {
-      edges {
-        node {
-          childMarkdownRemark {
-            frontmatter {
-              leaders
-              teachers
-              pupils
-            }
-          }
-        }
-      }
-    }
-  }
+// export const query = graphql`
+//   query {
+//     allFile(
+//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "survey" } }
+//     ) {
+//       edges {
+//         node {
+//           childMarkdownRemark {
+//             frontmatter {
+//               leaders
+//               teachers
+//               pupils
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
 `
