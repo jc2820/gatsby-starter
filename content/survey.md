@@ -7,12 +7,24 @@ leaders:
       a3: Neutral
       a4: Agree
       a5: nope
+      responses:
+        - answer: not at all
+        - answer: nope
+        - answer: maybe
+        - answer: sure
+        - answer: deffo
     - statement: This may just work
       a1: hell no
       a2: no
       a3: yaah
       a4: yeah!
       a5: hells yeah
+      responses:
+        - answer: not at all
+        - answer: nope
+        - answer: maybe
+        - answer: sure
+        - answer: deffo
   privacy:
     - statement: Is this private
       a1: naaa
@@ -20,6 +32,12 @@ leaders:
       a3: maybe
       a4: ya
       a5: yaaaa
+      responses:
+        - answer: not at all
+        - answer: nnaaaa
+        - answer: dunno
+        - answer: yah
+        - answer: yeah!
 teachers:
   digitalknowledge:
     - statement: I can teach myself to make this work
