@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = props => {
@@ -14,7 +14,7 @@ const IndexPage = props => {
       <h1>{data.title}</h1>
       <p>{data.intro}</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <img src={data.image} alt="photo of Ruby" />
+        <img src={data.image} alt="champ" />
       </div>
       <Link to="/survey/">Survey</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>

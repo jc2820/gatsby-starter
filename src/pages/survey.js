@@ -1,13 +1,13 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = props => {
   const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
-    console.log({data});
+  console.log({ data })
   return (
     <Layout>
       <SEO title="Home" />
@@ -23,22 +23,49 @@ const IndexPage = props => {
 }
 export default IndexPage
 
-// export const query = graphql`
-//   query {
-//     allFile(
-//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "survey" } }
-//     ) {
-//       edges {
-//         node {
-//           childMarkdownRemark {
-//             frontmatter {
-//               leaders
-//               teachers
-//               pupils
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query {
+    allFile(
+      filter: { sourceInstanceName: { eq: "content" }, name: { eq: "survey" } }
+    ) {
+      edges {
+        node {
+          childMarkdownRemark {
+            frontmatter {
+              leaders {
+                digitalknowledge {
+                  statement
+                  a1
+                  a2
+                  a3
+                  a4
+                  a5
+                }
+              }
+              teachers {
+                digitalknowledge {
+                  statement
+                  a1
+                  a2
+                  a3
+                  a4
+                  a5
+                }
+              }
+              pupils {
+                digitalknowledge {
+                  statement
+                  a1
+                  a2
+                  a3
+                  a4
+                  a5
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
