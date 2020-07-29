@@ -1,57 +1,149 @@
 ---
 leaders:
   digitalknowledge:
-    - statement: This is going to work?
-      a1: Strongly disagree
-      a2: Disagree
-      a3: Neutral
-      a4: Agree
-      a5: nope
+    - statement: Question one
       responses:
-        - answer: not at all
-        - answer: nope
-        - answer: maybe
-        - answer: sure
-        - answer: deffo
-    - statement: This may just work
-      a1: hell no
-      a2: no
-      a3: yaah
-      a4: yeah!
-      a5: hells yeah
-      responses:
-        - answer: not at all
-        - answer: nope
-        - answer: maybe
-        - answer: sure
-        - answer: deffo
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
   privacy:
-    - statement: Is this private
-      a1: naaa
-      a2: na
-      a3: maybe
-      a4: ya
-      a5: yaaaa
+    - statement: Question one
       responses:
-        - answer: not at all
-        - answer: nnaaaa
-        - answer: dunno
-        - answer: yah
-        - answer: yeah!
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  sharing:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  communication:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  criticalthinking:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  responsibleuse:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
 teachers:
   digitalknowledge:
-    - statement: I can teach myself to make this work
-      a1: Disagree
-      a2: Neutral
-      a3: Agree
-      a4: Strongly Agree
-      a5: nope
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  privacy:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  sharing:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  communication:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  criticalthinking:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  responsibleuse:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
 pupils:
   digitalknowledge:
-    - statement: I will have burritos for dinner
-      a1: Strongly disagree
-      a2: Disagree
-      a3: Neutral
-      a4: Agree
-      a5: nope
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  privacy:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  sharing:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  communication:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  criticalthinking:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
+  responsibleuse:
+    - statement: Question one
+      responses:
+        - answer: Strongly disagree
+        - answer: Disagree
+        - answer: Neutral
+        - answer: Agree
+        - answer: Strongly agree
 ---

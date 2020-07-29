@@ -35,31 +35,115 @@ export const query = graphql`
               leaders {
                 digitalknowledge {
                   statement
-                  a1
-                  a2
-                  a3
-                  a4
-                  a5
+                  responses {
+                    answer
+                  }
+                }
+                privacy {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                sharing {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                communication {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                criticalthinking {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                responsibleuse {
+                  statement
+                  responses {
+                    answer
+                  }
                 }
               }
               teachers {
                 digitalknowledge {
                   statement
-                  a1
-                  a2
-                  a3
-                  a4
-                  a5
+                  responses {
+                    answer
+                  }
+                }
+                privacy {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                sharing {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                communication {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                criticalthinking {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                responsibleuse {
+                  statement
+                  responses {
+                    answer
+                  }
                 }
               }
               pupils {
                 digitalknowledge {
                   statement
-                  a1
-                  a2
-                  a3
-                  a4
-                  a5
+                  responses {
+                    answer
+                  }
+                }
+                privacy {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                sharing {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                communication {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                criticalthinking {
+                  statement
+                  responses {
+                    answer
+                  }
+                }
+                responsibleuse {
+                  statement
+                  responses {
+                    answer
+                  }
                 }
               }
             }
