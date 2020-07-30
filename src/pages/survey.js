@@ -14,7 +14,7 @@ const IndexPage = props => {
       {/* <h1>{data.title}</h1>
       <p>{data.intro}</p>
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <img src={data.image} alt="photo of Ruby" />
+        <img src={data.image} />
       </div> */}
       <Link to="/">Go home</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
@@ -32,6 +32,7 @@ export const query = graphql`
         node {
           childMarkdownRemark {
             frontmatter {
+              title
               leaders {
                 digitalknowledge {
                   statement
