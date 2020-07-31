@@ -3,18 +3,19 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Question from "../components/question"
 
 const IndexPage = props => {
+  const [userType, setUserType] = React.useState("leaders")
   const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
-  console.log({ data })
   return (
     <Layout>
       <SEO title="Home" />
-      {/* <h1>{data.title}</h1>
-      <p>{data.intro}</p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <img src={data.image} />
-      </div> */}
+      <button onClick={() => setUserType("leaders")}>Leader</button>
+      <button onClick={() => setUserType("teachers")}>Teacher</button>
+      <button onClick={() => setUserType("pupils")}>Pupil</button>
+
+      <Question data={data[userType]} />
       <Link to="/">Go home</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </Layout>
@@ -31,7 +32,6 @@ export const query = graphql`
         node {
           childMarkdownRemark {
             frontmatter {
-              title
               leaders {
                 digitalknowledge {
                   statement
