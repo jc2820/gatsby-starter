@@ -2,13 +2,17 @@
 title: Edit the Survey
 leaders:
   digitalknowledge:
-    - statement: Question one
+    - statement: Question one leaders
       responses:
         - answer: Strongly disagree
         - answer: Disagree
         - answer: Neutral
         - answer: Agree
         - answer: Strongly agree
+    - statement: Question 2 leaders
+      responses:
+        - answer: no
+        - answer: yes
   privacy:
     - statement: Question one
       responses:
@@ -51,13 +55,17 @@ leaders:
         - answer: Strongly agree
 teachers:
   digitalknowledge:
-    - statement: Question one
+    - statement: Question one teachers
       responses:
         - answer: Strongly disagree
         - answer: Disagree
         - answer: Neutral
         - answer: Agree
         - answer: Strongly agree
+    - statement: Question 2 teachers
+      responses:
+        - answer: naa
+        - answer: yaa
   privacy:
     - statement: Question one
       responses:
@@ -100,13 +108,17 @@ teachers:
         - answer: Strongly agree
 pupils:
   digitalknowledge:
-    - statement: Question one
+    - statement: Question one pupils
       responses:
         - answer: Strongly disagree
         - answer: Disagree
         - answer: Neutral
         - answer: Agree
         - answer: Strongly agree
+    - statement: question 2 pupils
+      responses:
+        - answer: nope
+        - answer: yep
   privacy:
     - statement: Question one
       responses:
